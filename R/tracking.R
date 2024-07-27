@@ -101,9 +101,7 @@ logAppOpen <- function(session, app_name, user) {
     app = app_name,
     user = user,
     timestamp = Sys.time(),
-    action = "App opened",
-    user_ip = session$clientData$ip,
-    user_agent = session$clientData$userAgent
+    action = "App opened"
   )
   saveLog(log_info)
 }
