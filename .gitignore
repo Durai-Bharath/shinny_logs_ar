@@ -1,0 +1,7 @@
+.Rproj.user
+.Rhistory
+*.Rproj
+dev/
+inst/doc
+examples/.secrets/
+node_modules
